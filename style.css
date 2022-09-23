@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(166, 203, 235);
+}
+.home{
+    font-style: normal;
+    font-size: large;
+    font-family: cursive;
+    padding-top: 20px;
+}
+div.info > p{
+    font-family: serif;
+    position: relative;
+}
+section:hover{
+    background-color: darkslategrey;
+    color: rgb(235, 197, 235);
+}
+/* a[href^="#"] {
+    background-color: rosybrown;
+} */
+#main{
+    background-color: pink;
+    text-align: center;
+    padding-top: 20px;
+}
+h6.published{
+    color: rgb(112, 112, 212);
+}
+h1{
+    font-family: fantasy;
+}
+.info h4{
+    text-align: center;
+    background-color: plum;
+}
+.info p{
+    text-align: center;
+}
+h3.members{
+    background-color: plum;
+    text-align: center;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 20px;
+    color: rgb(245, 66, 155);
+    text-decoration-line: none;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 145, 231);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+li a.active{
+    background-color: rgb(114, 183, 243);
+    color: rgb(205, 231, 222);
+}
+li a:hover:not(.active){
+    background-color: azure;
+    color: rgb(114, 183, 243);
+}
